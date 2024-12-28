@@ -1,0 +1,85 @@
+
+.SignUp{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  align-items:center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+.SignUp img{
+  width: 100%;
+}
+.heading{
+  margin-left: 5%;
+  font-size: 70px;
+  color: brown;
+
+}
+.paragraph{
+  left: 0;
+  margin-left: 5%;
+  font-size: 20px;
+  color: rgb(3, 38, 144);
+}
+.SignUp form{
+  margin-top: 0px;
+  width: 100%;
+  padding: 10px
+}
+.SignUp h2{
+  text-align: center;
+  margin-top: 0px;
+  width: 100%;
+  padding: 15px;
+}
+.gender{
+  height: 40px;
+  padding-top: 0px;
+}
+.radio{
+  margin-left: 20px;
+}
+tweHolder{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.logInForm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.logInForm label{
+  font-size: 17px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;;
+}
+.logInForm input{
+  height: 35px;
+  padding: 0 8px;
+}
+.btn{
+  padding: 5px;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  width: 90px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(255, 253, 253);
+  color: rgb(0, 0, 0);
+}
